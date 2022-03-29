@@ -97,7 +97,60 @@ ul{
   .info {
     max-width: 200px;
   }
+  /*Quote section desing  */
 
+  .quote{
+       display: flex;
+       background-color: #e5e7eb;
+       justify-content:center;
+       align-items: center;
+
+  }
+  .quote-text{
+    padding: 100px 200px ;
+    color:#1f2937;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+
+}
+figcaption{
+    text-align: right;
+}
+ /* CTA Section desing */
+ .modal{
+   
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding :100px 0;
+      
+ }
+ .cta-content{
+    background: #3882f6;
+     border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 150px;
+    color:#fff;
+    padding:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding :10px 10px 10px 90px;
+    
+ }
+ .cta-content div{
+    flex: 1 1 0%;
+}
+.cta-content .left{
+    flex: 3 1 0%
+}
+  .cta{
+    border: 1px solid #fff;
+    display: flex;
+  }
    
 
 /*footer design */
